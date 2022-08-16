@@ -2,12 +2,12 @@
 a=[1,2,3,4]
 # print(a*3)
 
-from tracemalloc import start
+
 import numpy as np
 
 b=np.array(a);
 # print(b*3)
-# print(b.mean())
+# print(b.mean()) #ortada duran
 
 c=np.arange(1,16).reshape(3,5)
 # print(c)
@@ -24,9 +24,21 @@ import pandas as pd
 dt= {'Samsung':[0,1,2,3, None],
     'Apple':[5,6,None,8,9],
     'Huawei':[10,12,13,None,14],
-    'MI':[15,16,17,18,None]};
+    'MI':[15,16,17,18,None],
+    'Xiaomi':[655,8787,3354,5578,448]};
 
 df=pd.DataFrame(dt,index=[3,85,97,41,22]);
 # print(df)
-print(df.loc[3,'Samsung'])
+# print(df.loc[22,'Apple'])
+# print(df.iloc[3,0])
+# print(df.isnull().sum())
+# print(df)
+# print(df.dropna(axis=1,how="all"))
+# print(df.fillna(99))
+# print(df[df>=10])
+# df.insert(1,"HP",[20,50,90,200,2050])
+# print(df)
+# df.drop("Samsung",axis=1,inplace=True)
+print(df)
+print(df.mean()) #ortalama
 #endregion 
