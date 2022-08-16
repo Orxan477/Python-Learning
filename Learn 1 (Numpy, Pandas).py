@@ -15,6 +15,7 @@ import pandas as pd
 # dt= {'Samsung':[0,1,2,3, None],
 #     'Apple':[5,6,None,8,9]};
 dt=pd.read_csv(r"C:\Users\Orxan477\Desktop\testing.csv")
+print(pd.read_html(r"E:\Documents\Code Academy\FinallProject\Front\index.html"))
 df=pd.DataFrame(dt)
 
 # df.insert(0,"yeni",[2])
@@ -33,5 +34,5 @@ df=pd.DataFrame(dt)
 
 # df.insert(0,"yeni",[2,2,2,2,2])
 # df.drop("Orxan",axis=1,inplace=True)
-print(df)
+# print(df)
 # print(df)
