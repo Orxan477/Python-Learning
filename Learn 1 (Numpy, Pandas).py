@@ -12,10 +12,14 @@ a=np.arange(5);
 
 
 import pandas as pd
-dt= {'Samsung':[0,1,2,3, None],
-    'Apple':[5,6,None,8,9]};
-df=pd.DataFrame(dt,index=1)
-# print(pd.read_csv(r"C:\Users\Orxan477\Desktop\fefef.docx"))
+# dt= {'Samsung':[0,1,2,3, None],
+#     'Apple':[5,6,None,8,9]};
+dt=pd.read_csv(r"C:\Users\Orxan477\Desktop\testing.csv")
+df=pd.DataFrame(dt)
+
+# df.insert(0,"yeni",[2])
+# df.iloc[0,0]="jssj"
+# print(df)
 # print(df.loc[4,'Samsung'])
 # print(df.iloc[1,1])
 # print(df.isnull().sum())
@@ -27,6 +31,7 @@ df=pd.DataFrame(dt,index=1)
 
 # df[df>10]
 
-df.insert(0,"yeni",[2,2,2,2,2])
-df.drop("yeni",axis=1,inplace=True)
+# df.insert(0,"yeni",[2,2,2,2,2])
+# df.drop("Orxan",axis=1,inplace=True)
 print(df)
+# print(df)
