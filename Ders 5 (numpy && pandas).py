@@ -29,4 +29,4 @@ dt= {'Samsung':[0,1,2,3, None],
 df=pd.DataFrame(dt,index=[3,85,97,41,22]);
 # print(df)
 print(df.loc[3,'Samsung'])
-#endregion
+#endregion 
