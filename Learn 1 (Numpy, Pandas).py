@@ -15,7 +15,8 @@ import pandas as pd
 # dt= {'Samsung':[0,1,2,3, None],
 #     'Apple':[5,6,None,8,9]};
 dt=pd.read_csv(r"C:\Users\Orxan477\Desktop\testing.csv")
-print(pd.read_html(r"E:\Documents\Code Academy\FinallProject\Front\index.html"))
+# print(pd.read_html(r"E:\Documents\Code Academy\FinallProjeckt\Front\index.html"))
+print(pd.read_csv(r"C:\Users\Orxan477\Desktop\Task2.csv"))
 df=pd.DataFrame(dt)
 
 # df.insert(0,"yeni",[2])
