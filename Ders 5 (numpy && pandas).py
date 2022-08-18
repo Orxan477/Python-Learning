@@ -33,7 +33,7 @@ df=pd.DataFrame(dt,index=[3,85,97,41,22]);
 # print(df.iloc[3,0])
 # print(df.isnull().sum())
 # print(df)
-# print(df.dropna(axis=1,how="all"))
+# print(df.dropna(axis=1,how="all")) #butun sutun nulldusa onu sil
 # print(df.fillna(99))
 # print(df[df>=10])
 # df.insert(1,"HP",[20,50,90,200,2050])
