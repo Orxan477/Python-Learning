@@ -1,0 +1,13 @@
+1. Numpy kitabxanasından istifadə edərək 5 setir 5 sütünluq array yarat.
+20-ci yerdə olan ədədi arrayin ortalmasina bərabər elə. (0) -10  -7
+2. Data göndərəcəm sənə onu kod vasitəsi ilə oxut. İndexləməni amma özün əl ilə et. Məsələn (3,8,2,6,10) (15)
+	1) İloc ve locu özün üçün məşq elə  -- (5)
+	2) None olanlari ekranda göstər (15)
+	3) None olan yerlərə sütünün ortalmasını yazdır. (0) -15
+	4) Özündən yeni sütün əlavə et dəyərlər daxil et (deyerlerden biri none olsun) sonra none olanlari sil kod ile (18)
+	5) Sonra həmin yaratdığın sütunu sil (15)
+
+
+15+15+18+15=68
+Elə yazdığın faylı yükləyərsən bura copy paste eləmə power bi göndərdiyin kimi
+
