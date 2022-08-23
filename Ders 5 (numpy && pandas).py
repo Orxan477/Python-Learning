@@ -36,9 +36,11 @@ df=pd.DataFrame(dt,index=[3,85,97,41,22]);
 # print(df.dropna(axis=1,how="all")) #butun sutun nulldusa onu sil
 # print(df.fillna(99))
 # print(df[df>=10])
-# df.insert(1,"HP",[20,50,90,200,2050])
+df.insert(1,"HP",[None,None,None,None,None])
+# print(df)
+print(df.dropna(axis=1,how="all")) 
 # print(df)
 # df.drop("Samsung",axis=1,inplace=True)
-print(df)
-print(df.mean()) #ortalama
+# print(df)
+# print(df.mean()) #ortalama
 #endregion 
