@@ -1,20 +1,20 @@
 #region sade murekkeb
-# # x=15;
-# # a=2;
-# # z=0;
+x=int(input("Rəqəm daxil edin: "));
+a=2;
+z=0;
 
-# # if((x==2) | (x==3) | (x==5) | (x==7)):
-# #     print("sadedir");
-# # else:   
-# #     while(a<10):
-# #         if(x%a==0):
-# #             z=z+1;
-# #             break;
-# #         a=a+1;
-# #     if(z==0):
-# #         print("sadedir")
-# #     else:
-# #         print("murekkeb");
+if((x==2) | (x==3) | (x==5) | (x==7)):
+    print("sadedir");
+else:   
+    while(a<10):
+        if(x%a==0):
+            z=z+1;
+            break;
+        a=a+1;
+    if(z==0):
+        print("sadedir")
+    else:
+        print("murekkeb");
 #endregion
 
 

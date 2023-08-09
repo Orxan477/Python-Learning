@@ -7,7 +7,7 @@ x=5;
 x=7;
 f=x+3;
 x +=3;
-# print(x)
+print(x)
 #endregion
 
 #region dataType
@@ -32,4 +32,4 @@ a+=4;
 a="5455";
 # b=a.center();
 # print(a.capitalize)
-print(a.isdigit())
+print(a.isdigit());
